@@ -1,0 +1,532 @@
+.section-main{
+/* background-image: url("/Assets/Hero-bg.png" ); */
+ background-size: cover;
+padding: 0px 0px 200px 0px;
+background: url("/Assets/Hero-bg.png"),rgba(78, 71, 255, 0.01);
+}
+
+
+.section{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+
+color: var(--Primary Color, rgba(78, 71, 255, 1));
+font-family: Inter;
+font-style: Black;
+font-size: 34px;
+font-weight: 900;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+ .button{
+    /* Frame 27149 */
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+color: rgba(255, 255, 255, 1);
+padding: 12px 36px 12px 36px;
+border: none;
+border-radius: 10px;
+background: rgba(78, 71, 255, 1);
+}
+.Template{
+   
+margin: 0 auto;
+ margin-top: 158px;
+    /* Frame 27151 */
+width: 905px;
+height: 237px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 37;
+
+
+}
+.Template h1{
+color: rgba(37, 36, 50, 1);
+
+font-family: Raleway;
+font-style: Bold;
+font-size: 65px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+
+/* section */
+.section-main1 {
+  width: 100%;
+  background-color: #f6f8ff;   
+  padding: 100px 0;
+}
+
+/* container */
+.action {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* left content */
+.see-in {
+  max-width: 520px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.see-in h2 {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.see-in p {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(37, 36, 50, 0.6);
+}
+
+/* image card */
+.img-wrap {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  overflow: hidden;
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+}
+
+.img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.button1{
+    /* Frame 27149 */
+width: 229px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 36px 12px 36px;
+border: none;
+border-radius: 10px;
+background: rgba(78, 71, 255, 1);
+color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+/* section */
+
+
+/* container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  
+}
+
+/* card */
+.stats-card {
+  background-color: #e9ebff;
+  border-radius: 24px;
+  padding: 48px 64px;
+  text-align: center;
+}
+
+/* title */
+.stats-title {
+color: rgba(37, 36, 50, 1);
+font-family: Raleway;
+font-style: Bold;
+font-size: 38px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* stats row */
+.stats-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* single item */
+.stat-item {
+  flex: 1;
+  width: 180px;
+  height: 121px;
+}
+
+/* number */
+.stat-number {
+  font-family:Inter;
+  font-size: 48px;
+  font-weight: 700;
+  color: #4e47ff;
+  margin-bottom: 8px;
+}
+
+/* label */
+.stat-label {
+  font-family: Raleway;
+  font-size: 16px;
+  color: rgba(37, 36, 50, 0.6);
+}
+
+
+/* section */
+.testimonials-section {
+  padding: 100px 0;
+  background-color: #f6f8ff;
+}
+
+/* container */
+.container 
+  /* max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+} */
+
+/* section title */
+.section-title {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 48px;
+}
+
+/* testimonials layout */
+.testimonials-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* card */
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* rating */
+.rating {
+  color: #f5b700;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* title */
+.review-title {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  color: #252432;
+}
+
+/* review text */
+.review-text {
+  font-family: Raleway;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(37, 36, 50, 0.7);
+}
+
+/* section */
+.cta-section {
+  padding: 120px 0;
+  background-color: #f6f8ff;
+}
+
+/* container (reuse same system) */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* card */
+.cta-card {
+/* Frame 27201 */
+width: 1140px;
+height: 696.77px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20;
+padding: 71px 150px 71px 150px;
+
+border-radius: 14px;
+background: rgba(255, 255, 255, 1);
+}
+
+/* content */
+.cta-content {
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cta-content h2 {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 700;
+  color: #252432;
+}
+ 
+.cta-content p {
+  color: rgba(0, 0, 0, 0.5);
+
+font-family: var(--Body-FontFamily, Inter);
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* image wrapper */
+.cta-image {
+  width: 100%;
+  max-width: 820px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.cta-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.button2{
+    /* Frame 27148 */
+width: 195px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 36px 12px 36px;
+margin: 0 auto;
+box-sizing: border-box;
+border-radius: 10px;
+backdrop-filter: blur(4px);
+border: none;
+color: rgba(255, 255, 255, 1);
+background: rgba(78, 71, 255, 1);
+margin-bottom: 20px;
+}
+
+/* section */
+.contact-section {
+  padding: 120px 0;
+  background-color: #f6f8ff;
+}
+
+/* container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* layout */
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+.contact-text{
+    color: rgba(0, 0, 0, 1);
+/* Let’s Get in Touch */
+width: 528px;
+height: 232px;
+font-family: Raleway;
+font-style: Bold;
+font-size: 97px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+/* left text */
+.contact-text h2 {
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.2;
+}
+
+/* form */
+.contact-form {
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #252432;
+}
+
+/* inputs */
+.form-group input,
+.form-group textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e0e3ff;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(37, 36, 50, 0.4);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4e47ff;
+}
+
+/* button full width */
+.button.full {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* footer section */
+.footer {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+/* reuse container system */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* footer content */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+/* logo */
+.footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4e47ff;
+}
+
+/* description text */
+.footer-text {
+  max-width: 620px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(37, 36, 50, 0.6);
+}
+
+/* links */
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(37, 36, 50, 0.6);
+}
+
+.footer-links a:hover {
+  color: #4e47ff;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
